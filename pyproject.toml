@@ -1,0 +1,40 @@
+[project]
+name = "tube_search"
+version = "1.0.1"
+authors = [{ name = "BubbalooTeam", email = "bubbalooteam@proton.me" }]
+requires-python = ">=3.10"
+dependencies = [
+    "httpx==0.28.1",
+]
+
+[project.urls]
+Repository = "https://github.com/DaviisDev/tube_search"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 99
+show-fixes = true
+target-version = "py310"
+select = [
+  "I", # isort
+  "E", # pycodestyle
+  "F", # pyflakes
+  "UP",  # pyupgrade
+  "PTH",  # flake8-use-pathlib
+  "C4",  # flake8-comprehensions
+  "SIM", # flake8-simplify
+  "RET", # flake8-return
+  "RUF",  # ruff
+]
+
+[tool.ruff.isort]
+known-first-party = ["tube_search"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["tube_search"]
