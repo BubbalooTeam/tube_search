@@ -17,11 +17,17 @@ class TubeEnums(StrEnum):
     PLAYLIST_SECONDARY_SIDEBAR = "playlistSidebarSecondaryInfoRenderer"
 
 class TubePathsEnums(Enum):
-    HASHTAG_VIDEOS = ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'richGridRenderer', 'contents']
-    HASHTAG_CONTINUATION = ['onResponseReceivedActions', 0, 'appendContinuationItemsAction', 'continuationItems']
-    CONTENTS = ['contents', 'twoColumnSearchResultsRenderer', 'primaryContents', 'sectionListRenderer', 'contents']
-    FALLBACK_CONTENT = ['contents', 'twoColumnSearchResultsRenderer', 'primaryContents', 'richGridRenderer', 'contents']
-    CONTINUATION_CONTENT = ['onResponseReceivedCommands', 0, 'appendContinuationItemsAction', 'continuationItems']
-    CONTINUATION_TOKEN = ['continuationItemRenderer', 'continuationEndpoint', 'continuationCommand', 'token']
-    PLAYLIST_INFO = ['response', 'sidebar', 'playlistSidebarRenderer', 'items']
-    PLAYLIST_VIDEOS = ['response', 'contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents', 0, 'itemSectionRenderer', 'contents', 0, 'playlistVideoListRenderer', 'contents']
+    HASHTAG_VIDEOS = ["contents", "twoColumnBrowseResultsRenderer", "tabs", 0, "tabRenderer", "content", "richGridRenderer", "contents"]
+    HASHTAG_CONTINUATION = ["onResponseReceivedActions", 0, "appendContinuationItemsAction", "continuationItems"]
+    CONTENTS = ["contents", "twoColumnSearchResultsRenderer", "primaryContents", "sectionListRenderer", "contents"]
+    FALLBACK_CONTENT = ["contents", "twoColumnSearchResultsRenderer", "primaryContents", "richGridRenderer", "contents"]
+    CONTINUATION_CONTENT = ["onResponseReceivedCommands", 0, "appendContinuationItemsAction", "continuationItems"]
+    CONTINUATION_TOKEN = ["continuationItemRenderer", "continuationEndpoint", "continuationCommand", "token"]
+    PLAYLIST_INFO = ["response", "sidebar", "playlistSidebarRenderer", "items"]
+    PLAYLIST_VIDEOS = ["response", "contents", "twoColumnBrowseResultsRenderer", "tabs", 0, "tabRenderer", "content", "sectionListRenderer", "contents", 0, "itemSectionRenderer", "contents", 0, "playlistVideoListRenderer", "contents"]
+
+class TubeSearchEnums(StrEnum):
+    VIDEO = "EgIQAQ%3D%3D"
+    CHANNELS = "EgIQAg%3D%3D"
+    PLAYLISTS = "EgIQAw%3D%3D"
+    LIVESTREAMS = "EgJAAQ%3D%3D"
