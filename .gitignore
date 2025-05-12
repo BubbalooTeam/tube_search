@@ -1,2 +1,5 @@
+.vscode
+dist
 evaluation.py
-*.pyc
+__pycache__
+tube_search.egg-info
