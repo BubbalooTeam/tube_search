@@ -7,7 +7,7 @@ class TubeEnums(StrEnum):
     PLAYLIST_ELEMENT = "playlistRenderer"
     PLAYLIST_VIDEO_ELEMENT = "playlistVideoRenderer"
     SEARCH_ELEMENT = "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
-    SHELF_ELEMENT = "shelfRenderer"
+    SHELF_ELEMENT = "reelShelfRenderer"
     VIDEO_ELEMENT = "videoRenderer"
     CONTINUATION_ITEM = "continuationItemRenderer"
     RICH_ITEM = "richItemRenderer"

@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 from typing import List
 
-from tube_search.structs import TubeAcessibilityInfo, TubeChannelInfo, TubeViewsInfo, TubeThumbnailsInfo
+from tube_search.structs import TubeAccessibilityInfo, TubeChannelInfo, TubeViewsInfo, TubeThumbnailsInfo
 
 @dataclass(frozen=True, slots=True)
-class TubeSearchInfo:
+class TubeVideoInfo:
     videoID: str
     videoTitle: str
     videoDuration: str
@@ -13,6 +13,6 @@ class TubeSearchInfo:
     thumbnails: List[TubeThumbnailsInfo]
     descriptionSnippet: str
     channel: TubeChannelInfo
-    acessibility: TubeAcessibilityInfo
+    accessibility: TubeAccessibilityInfo
     url: str
-    shelfTitle: bool
+    shelfTitle: str

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
+from typing import List
 
 @dataclass(frozen=True, slots=True)
-class TubeAcessibilityInfo:
+class TubeShelfInfo:
     title: str
-    duration: str
