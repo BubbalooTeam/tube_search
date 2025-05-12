@@ -78,7 +78,7 @@ class VideoSearch(TubeUtils):
             region=region,
             searchPreferences="EgIQAQ%3D%3D",
         )
-        for i, dic in enumerate(videoSource):
+        for _, dic in enumerate(videoSource):
             try:
                 if TubeEnums.SHELF_ELEMENT.value in dic.keys():
                     shelf = YouTubeSearchUtils().getShelfComponent(element=dic)
