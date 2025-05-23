@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="tube-search",
-    version="0.0.1",
+    version="0.0.2",
     license="MIT License",
     author="BubbalooTeam",
     author_email="bubbalooteam@proton.me",

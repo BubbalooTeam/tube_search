@@ -13,7 +13,7 @@ class HTTPCore:
             context=dict(
                 client=dict(
                     clientName="WEB",
-                    clientVersion="2.20210224.06.00",
+                    clientVersion="2.20250522.20.39",
                     newVisitorCookie=True,
                 ),
                 user=dict(
