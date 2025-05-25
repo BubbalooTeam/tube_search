@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tube-search"
+version = "0.0.3"
+license = {
+    text = "MIT License"
+}
+authors = [
+    {
+        name = "BubbalooTeam", 
+        email = "bubbalooteam@proton.me"
+    },
+]
+keywords = ["tube search", "tube_search"]
+description = "🔎 Search for videos, channels and playlists on YouTube quickly and easily."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx[http2]",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BubbalooTeam/tube_search"
+"Bug Tracker" = "https://github.com/BubbalooTeam/tube_search/issues"
