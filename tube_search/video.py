@@ -1,8 +1,7 @@
-import asyncio
 from html import escape
 from typing import List, Optional
 
-from tube_search.exceptions.video import VideoSearchFailed, VideoNotFound
+from tube_search.exceptions import VideoSearchFailed, VideoNotFound
 from tube_search.structs import TubeAccessibilityInfo, TubeChannelInfo, TubeThumbnailsInfo, TubeShelfInfo, TubeViewsInfo, TubeVideoInfo
 from tube_search.utils import TubeEnums, TubeUtils, YouTubeSearchUtils
 
