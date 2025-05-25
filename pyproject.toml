@@ -5,14 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tube-search"
 version = "0.0.3"
-license = {
-    text = "MIT License"
-}
+license = { text = "MIT License" } # <-- Mantenha tudo na mesma linha
 authors = [
-    {
-        name = "BubbalooTeam", 
-        email = "bubbalooteam@proton.me"
-    },
+  { name = "BubbalooTeam", email = "bubbalooteam@proton.me" },
 ]
 keywords = ["tube search", "tube_search"]
 description = "🔎 Search for videos, channels and playlists on YouTube quickly and easily."
