@@ -12,7 +12,7 @@ authors = [
 keywords = ["tube search", "tube_search"]
 description = "🔎 Search for videos, channels and playlists on YouTube quickly and easily."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "httpx[http2]",
 ]
